@@ -13,6 +13,38 @@ A real-time chat application built with Node.js and WebSocket, showcasing expert
 ## Setup
 
 1. **Clone the Repository**:
+   
    ```bash
    git clone https://github.com/ivane98/realtime-chat.git
    cd realtime-chat
+
+2. **Install Dependencies**:
+   
+   ```bash
+   npm install ws
+
+##Usage
+
+1. **Start the Server**:
+   
+   ```bash
+   node server.js
+   
+Output: WebSocket server running on ws://localhost:3000
+
+2. **Start the Client**:
+   
+   ```bash
+   node client.js
+
+- Enter a username (e.g., Alice).
+- Send messages to chat with others.
+- Type exit or press Ctrl+C to quit.
+
+3. **Example**:
+   ```bash
+   Enter Username: Bob
+   [SYSTEM] Welcome, Bob
+   [USERS] Bob
+   > Hello!
+   [Bob] Hello!
